@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bn0dc15tg0xhp"]
+
+[ext_resource type="Script" uid="uid://dv3vixio7ra5b" path="res://scenes/hitbox_component.gd" id="1_ldxio"]
+
+[node name="HitboxComponent" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_ldxio")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(1, 0)
+polygon = PackedVector2Array(23, -31, 41, -13, 45, 6, 39, 18, 31, 29, 6, 34, -9, 35, -26, 26, -44, 24, -53, 34, -36, 49, 4, 57, 30, 57, 49, 49, 55, 35, 65, 15, 63, 5, 59, -10, 53, -24, 39, -34, 25, -40, 18, -42)

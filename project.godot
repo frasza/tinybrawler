@@ -15,6 +15,14 @@ run/main_scene="uid://cu43fce3htfdt"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameManager="*res://scenes/game_manager.gd"
+
+[global_group]
+
+player=""
+
 [input]
 
 up={
