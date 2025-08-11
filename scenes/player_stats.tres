@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Stats" load_steps=2 format=3 uid="uid://btbkcj637g28q"]
+
+[ext_resource type="Script" uid="uid://c20hu34rhhc2o" path="res://scenes/stats.gd" id="1_0lyri"]
+
+[resource]
+script = ExtResource("1_0lyri")
+speed = 300.0
+max_health = 100.0
+attack_power = 10.0
+metadata/_custom_type_script = "uid://c20hu34rhhc2o"
